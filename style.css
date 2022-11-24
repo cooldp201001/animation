@@ -1,0 +1,99 @@
+/* 
+.container{
+    width: 700px;
+    height: 700px;
+    background-color:white;
+
+}
+@keyframes changecolor{
+    10%{background: red; width: 100px ;}
+    25%{background: orange; width: 200px;}
+    50%{background:yellow; width: 300px;}
+    75%{background: green; width: 400px;}
+    100%{background: blue;width: 500px;}
+    
+}
+.child{
+    background: red;
+    width: 100px;
+    height: 100px;
+animation-name: changecolor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.child2{
+    background: red;
+    width: 100px;
+    height: 100px;
+animation-name: changecolor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+/* using animation-timing-function*/
+/* div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: red;
+    animation:atf 5s infinite;
+}
+@keyframes atf{
+ from{right: 100px;}
+ to{ right: 00px;}
+}
+.ease{
+
+    animation-timing-function: ease;
+
+
+}
+.linear{
+ 
+    animation-timing-function:linear;
+
+ 
+}
+.ease-in{
+  
+    animation-timing-function: ease-in;
+
+ 
+}
+.ease-out{
+    
+    animation-timing-function: ease-out;
+
+ 
+}
+.ease-in-out{
+  
+    animation-timing-function: ease-in-out;
+
+ 
+} */ */
+/* approach:-3 */
+
+.out{
+    width: 500px;
+    height: 500px;
+     background: red;
+}
+
+ .box{
+    width: 100px;
+    height: 100px;
+     background: red;
+/* animation: round 4s linear; */
+
+} 
+/* @keyframes round{
+    0%{
+        transform: translatey(500%);
+    }
+    25%{
+        transform: translateY(100%) translatex(100%);
+    } */
+
+
+

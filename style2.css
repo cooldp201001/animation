@@ -1,0 +1,33 @@
+.outer{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+animation: mover 4s  linear alternate                                                                                                               2;
+}
+@keyframes mover{
+    0%{ transform: translateX(0%); }
+ 25%{ transform: translateX(400%)  ;}
+ 50%{ transform:   translateX(400%) translateY(400%) ; }
+  75%{ transform: translateX(0%) translateY(400%); }
+  100%{ transform:  translateX(0%) translatey(0%) ; }
+} 
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+animation: mover1 4s  linear alternate 2 ;
+}
+@keyframes mover1{
+    0%{ transform: translate(0%,0%); }
+ 25%{ transform: translate(0%,400%) ;}
+ 50%{ transform:   translate(400%,400%) ; }
+  75%{ transform: translate(400%,0%) ; }
+  100%{ transform:  translate(0%,0%) ; }
+} 

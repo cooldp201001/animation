@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+ 
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 10vh;
+}
+#color_change{
+    color: silver;
+    font-size: 10vh;
+}
+.text_change::after{
+    padding: 10px;
+    display: inline-block;
+ 
+     color: white;
+     animation: animi 3s infinite;
+     content:"LIFESTYLE";
+     background: greenyellow;
+
+}
+
+@keyframes animi
+ {
+    20%{ 
+        content: "LIFESTYLE";
+        padding: 10px;
+        display: inline-block;
+        background: greenyellow;
+         color: white;
+   
+    
+    }
+
+
+    30%{ 
+        content: "WORK";
+        padding: 10px;
+        display: inline-block;
+        background: red;
+         color: white;
+    
+    }
+    90%{ 
+        content: "EVERTHING";
+        padding: 10px;
+        display: inline-block;
+        background:skyblue;
+         color: white;
+    
+    }
+
+
+    
+}
